@@ -11,6 +11,9 @@ API
     ```docker pull nmatsui/hello-world-api``` en el puerto 3000
 
 
+BASE DE DATOS:
+- Iniciamos directamente la isntancia con el comando: ```docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres○```
+
 ## COMANDOS
 
 ## CONFIGURACION ES
