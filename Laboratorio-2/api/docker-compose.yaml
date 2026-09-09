@@ -1,0 +1,21 @@
+version: 3
+
+services:
+  api1:
+    container_name: api1
+    image: docker pull nmatsui/hello-world-api:0.1.1
+    ports:
+      - 3001:3000
+
+  api2:
+    container_name: api2
+    image: docker pull nmatsui/hello-world-api:0.1.1
+    ports:
+      - 3000:3000
+
+db:
+  image: postgres:13
+  enviroment:
+    POSTGRES_USER: postgres
+    POSTGRES_PASSWORD: password
+    POSTGRES_DB: postgres
