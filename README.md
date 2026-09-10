@@ -17,11 +17,11 @@ None: Desactiva todo tipo de conexion entre contenedores
 
 ## Tipos de volumenes que existen en docker
 
-Volumenes Anonimos: Son los que se crean demanera automatica al crear el contenedor
+Volumenes Anonimos: Son los que se crean demanera automatica al crear el contenedor y crean hash para que puedan usarlos como identificador.
 
-VOlumenes con nombre: El propio docker se encarga de administrar su ruta especifica
+VOlumenes con nombre: El propio docker se encarga de administrar su ruta especifica en una ruta especifica y el nombre lo define el usuario.
 
-Montajes de enlace: Permiten usar cualquier ruta absoluta en el host 
+Montajes de enlace: Permiten usar cualquier ruta absoluta en el host. Sirven para poder encontrar cualquier archivo en la pc anfitriona
 
 
 ## STACK TECNICO:
