@@ -58,6 +58,6 @@ Luego de eliminar las instancias creadas, pasamos a crear de manera declarativa 
 
 ahora verificamos si estan creadas las isntaancias con el comando ```docker ps``` y visualizamos la salida:
 
-![alt text](Laboratorio-2/{DAF01B39-BF91-40D0-A94D-E4CB58EA33FA}.png)
+![alt text](Laboratorio-2/{A9EA5B85-C555-48ED-AE1E-5A5D55D3DC9F}.png)
 
 ## CONFIGURACION ES

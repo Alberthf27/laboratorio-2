@@ -1,4 +1,4 @@
-version: '3'
+﻿version: '3'
 
 services:
   api1:
@@ -14,10 +14,10 @@ services:
       - 3000:3000
 
   api3:
-  container_name: api3
-  image: nmatsui/hello-world-api:0.1.1
-  ports:
-    - 3002:3000
+    container_name: api3
+    image: nmatsui/hello-world-api:0.1.1
+    ports:
+      - 3002:3000
 
   db:
     image: postgres:13
@@ -27,3 +27,6 @@ services:
       POSTGRES_DB: ${DB_NAME}
     volumes:
       - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
