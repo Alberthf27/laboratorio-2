@@ -18,6 +18,8 @@ API
 
 BASE DE DATOS:
 - Iniciamos directamente la isntancia con el comando: ```docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres○```
+- Configuramos los volumenes para la persistencia de datos colocando la ruta en la que se guardara los datos:
+```postgres_data:/var/lib/postgresql/data```
 
 ## COMANDOS
 - Realizamos la creacion de el archivo docker-compose.yaml y verificamos 
