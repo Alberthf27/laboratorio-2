@@ -1,5 +1,29 @@
 # Laboratorio 2
 Uso de docker compose para el despliegue de 3 APIs y una base de datos Postgres
+
+# Rspuesta a la tarea
+## Tipos de redes en docker
+Existen 4 tipos de redes que sirven para cada cosa diferente 
+
+Puente: Es elcontrolador de red predeterminado y que permite que los contenedores bejo una misma red puedan conocerse entre si
+
+Host: 	Elimine el aislamiento de red entre el contenedor y el host Docker.
+
+Overlay: Conecta múltiples demonios de docker entre sí.
+
+Macvlan: Coloca una direccion mac a cada docker para que asi quede totalemtne aislado
+
+None: Desactiva todo tipo de conexion entre contenedores
+
+## Tipos de volumenes que existen en docker
+
+Volumenes Anonimos: Son los que se crean demanera automatica al crear el contenedor
+
+VOlumenes con nombre: El propio docker se encarga de administrar su ruta especifica
+
+Montajes de enlace: Permiten usar cualquier ruta absoluta en el host 
+
+
 ## STACK TECNICO:
 API
 - Copia de imagen de una API rest con Node.js 
