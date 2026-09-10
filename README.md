@@ -12,6 +12,9 @@ API
 - Otra instancia de la imagen esta vez con el nombre api2
     ```docker pull nmatsui/hello-world-api``` en el puerto 3000
 
+- tercer instancia de la imagen esta vez con el nombre api2
+    ```docker pull nmatsui/hello-world-api``` en el puerto 3002
+
 
 BASE DE DATOS:
 - Iniciamos directamente la isntancia con el comando: ```docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres○```
