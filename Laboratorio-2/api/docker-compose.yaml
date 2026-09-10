@@ -13,6 +13,12 @@ services:
     ports:
       - 3000:3000
 
+  api3:
+  container_name: api3
+  image: nmatsui/hello-world-api:0.1.1
+  ports:
+    - 3002:3000
+
   db:
     image: postgres:13
     environment:
